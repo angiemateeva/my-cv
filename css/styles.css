@@ -2,11 +2,14 @@
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+  @import url("https://use.typekit.net/fcv2xdh.css");
+  @import url("https://use.typekit.net/fcv2xdh.css");
+
 
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Lato, Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #202030;
 	background-color: #f8f8fc;
 }
@@ -14,15 +17,19 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #9E5B90;
 }
 
 .resume-main {
 	background-color: #fffefc;
 }
-
+.heading {
+	font-family: "poppins", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #E4D5EB;
 }
 
 /* Styles for lists in the document */
@@ -36,7 +43,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #6A009C;
 }
 
 .biography-details li, .skill-list li {
@@ -48,4 +55,13 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+.w-10 {
+}
+.w-140 {
+}
+.fw-bolder  {font-family: "usurp", sans-serif;
+font-weight: 400;
+font-style: normal;
+	
 }
